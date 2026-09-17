@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/p2.css" />
+  </head>
+  <body>
+    <div class="con1">
+      <h1>Weather App</h1>
+      <div class="input-con">
+        <input
+          type="text "
+          id="city-input"
+          placeholder="Enter your city ...."
+        />
+        <button id="btn1">Get Weather</button>
+      </div>
+      <div id="weatherinfo" class="hidden">
+        <h2 id="city-name"></h2>
+        <p id="temp1"></p>
+        <p id="descrip"></p>
+        <img id="weather-icon" alt="Weather Icon" />
+      </div>
+      <p id="error" class="hidden">city can't be found</p>
+    </div>
+
+    <!-- js -->
+    <script src="/p2.js"></script>
+  </body>
+</html>
